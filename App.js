@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
-import AiTools from './components/AiTools';
-import PracticeExamGenerator from './components/PracticeExamGenerator';
-import ApPracticePlanner from './components/ApPracticePlanner';
-import Footer from './components/Footer';
-import './index.css';
+import React from "react"
+import Header from "./components/Header"
+import AiTools from "./components/AiTools"
+import PracticeExamGenerator from "./components/PracticeExamGenerator"
+import ApPracticePlanner from "./components/ApPracticePlanner"
+import Footer from "./components/Footer"
+import "./index.css"
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="min-h-screen flex flex-col font-sans text-text-primary">
       <Header />
@@ -16,20 +16,20 @@ const App: React.FC = () => {
             Supercharge Your Learning with AI
           </h1>
           <p className="text-lg text-text-secondary max-w-3xl mx-auto">
-            Your personal AI study assistant for any subject. Get explanations, generate flashcards, take quizzes, and create AP exam study plans.
+            Your personal AI study assistant for any subject. Get explanations,
+            generate flashcards, take quizzes, and create AP exam study plans.
           </p>
         </div>
-        
+
         <AiTools />
 
         <PracticeExamGenerator />
 
         <ApPracticePlanner />
-
       </main>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
