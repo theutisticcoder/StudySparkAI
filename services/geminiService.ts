@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { Flashcard, QuizQuestion, PracticeExam, UserAnswers, ExamGradingResult, FrqGradingResult } from '../types';
 
+// Fix: Adhering to the coding guidelines to use process.env.API_KEY for the API key, which also resolves the TypeScript error with `import.meta.env`.
 if (!process.env.API_KEY) {
     throw new Error("API_KEY environment variable is not set");
 }

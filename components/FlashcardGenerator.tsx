@@ -63,7 +63,6 @@ const FlashcardGenerator: React.FC = () => {
             <div key={index} className="perspective-1000" onClick={() => handleCardFlip(index)}>
               <div 
                 className={`relative w-full h-48 rounded-lg shadow-md cursor-pointer transition-transform duration-500 transform-style-3d ${flippedCard === index ? 'rotate-y-180' : ''}`}
-                style={{ transform: `rotateY(${flippedCard === index ? 180 : 0}deg)` }}
               >
                 <div className="absolute w-full h-full backface-hidden bg-white border border-gray-200 rounded-lg flex items-center justify-center p-4 text-center">
                   <p className="font-semibold text-lg text-primary">{card.term}</p>

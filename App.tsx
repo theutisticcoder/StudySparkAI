@@ -4,6 +4,7 @@ import AiTools from './components/AiTools';
 import PracticeExamGenerator from './components/PracticeExamGenerator';
 import ApPracticePlanner from './components/ApPracticePlanner';
 import Footer from './components/Footer';
+import './index.css';
 
 const App: React.FC = () => {
   return (
