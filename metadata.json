@@ -1,0 +1,5 @@
+{
+  "name": "Study Spark AI",
+  "description": "An AI-powered study application providing free tools for learning any subject, including concept explainers, flashcard generators, and quizzes. It also offers full-length practice exam plans for AP courses, all powered by Google Gemini.",
+  "requestFramePermissions": []
+}
