@@ -25,6 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
+      API_KEY: ${{secrets.API_KEY}}
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
